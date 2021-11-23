@@ -16,12 +16,11 @@ export default function Index({ posts }) {
     <>
       <Layout
         // type your page title and page description.
-        title="Blog with Next.js and Contentful"
-        description="This is a Blog Demo with Next.js and Contentful. You can see the code in github. And you can use the code to make your own blog. "
+        title="迷える羊の突撃ブログ"
+        description=""
       >
         <Container maxWidth="lg">
           {/* you can delete this component or you can use this for your page header. */}
-          <PageHeader />
           {/* blog post */}
           <Grid container spacing={4}>
             {posts?.map(({ fields }) => (

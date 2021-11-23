@@ -67,14 +67,14 @@ const Footer = () => {
           component={"a"}
           target="_blank"
           rel="noreferrer noopener"
-          href="https://satoruakiyama.com"
+          href="https://googles.com"
           justify="center"
           style={{
             textDecoration: "none",
           }}
         >
           <Typography className={classes.copylight}>
-            &copy;Satoru Akiyama
+            &copy;gostraysheep
           </Typography>
         </Grid>
       </Container>

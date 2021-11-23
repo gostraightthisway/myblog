@@ -28,21 +28,21 @@ const useStyles = makeStyles((theme) => ({
 const About = () => {
   const classes = useStyles();
   // use ure name
-  const name = '"Your Name"';
+  const name = 'gostraysheep';
   // use your picture
   const avatar =
-    "https://images.ctfassets.net/atxm25972ze9/7y6t7fqxDPqJ21ZECdUV9D/0ace08faabfb401be8e89d689b04ae98/adult-1868750__340.jpg?h=250";
+    "sheep.jpg?h=250";
   return (
     <Layout
       // type your page title and page description.
-      title=" About | Blog with Next.js and Contentful"
-      description="This is a Blog Demo with Next.js and Contentful. You can see the code in github. And you can use the code to make your own blog. "
+      title=" 中の人 | 迷える羊の突撃ブログ"
+      description=" "
     >
       <Container maxWidth="md">
         <Grid container direction="column" spacing={8}>
           <Grid item>
             <Typography variant="h1" align="center" gutterBottom>
-              About
+              中の人
             </Typography>
             <Typography variant="h2" align="center">
               Hello my name is {name}.
@@ -69,21 +69,9 @@ const About = () => {
             <Grid item container md={8}>
               <Typography variant="body1">
                 {/* your introduction */}
-                <strong>Type your introduction.</strong>
+                <strong>進め！迷える羊</strong>
                 <br />
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source. Lorem
-                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                written in 45 BC. This book is a treatise on the theory of
-                ethics, very popular during the Renaissance. The first line of
-                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
-                in section 1.10.32.
+                迷える羊がいろいろ試してみた記録.
               </Typography>
             </Grid>
           </Grid>
